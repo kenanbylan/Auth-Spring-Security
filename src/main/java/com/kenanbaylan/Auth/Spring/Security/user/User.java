@@ -17,6 +17,7 @@ import java.util.List;
 @Table(name = "_user")
 public class User implements UserDetails {
     @Id
+
     @GeneratedValue
     private Integer id;
 
